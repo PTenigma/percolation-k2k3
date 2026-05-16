@@ -202,6 +202,30 @@
       color: var(--accent2);
     }
     .theory p + p { margin-top: 10px; }
+
+    .info-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      border: 1px solid var(--border2);
+      background: var(--bg2);
+      color: var(--accent2);
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      font-family: var(--font-mono);
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s, color 0.15s;
+      flex-shrink: 0;
+    }
+    .info-btn:hover {
+      background: var(--bg3);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
   </style>
 </head>
 <body>
@@ -262,6 +286,7 @@
       <button id="btnReset">reset</button>
       <label class="toggle"><input type="checkbox" id="chkSpin" checked> auto-rotate</label>
       <span style="font-size:11px;color:var(--text3);margin-left:4px">· drag canvas to orbit · scroll to zoom</span>
+      <a class="info-btn" href="https://github.com/PTenigma/percolation-k2k3" target="_blank" rel="noopener" title="Documentation, screenshots and citation — github.com/PTenigma/percolation-k2k3">?</a>
     </div>
 
     <div class="legend">
