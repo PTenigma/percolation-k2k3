@@ -8,7 +8,7 @@
 >
 > [2] Thompson, P.M. (2025). *How Much Data Is Enough? Uniform Convergence Bounds for Generative & Vision-Language Models under Low-Dimensional Structure.* [arXiv:2512.23109](https://arxiv.org/abs/2512.23109)
 
-🔗 **Live demo:** https://PTenigma.github.io/percolation-k2k3
+🔗 **Live demo:** https://[username].github.io/percolation-k2k3
 
 ---
 
